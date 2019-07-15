@@ -1,0 +1,30 @@
+
+.task__checkbox, .task__checkbox--ongoing {
+    position: relative;
+    display: flex;
+    min-height: 50px;
+    min-width: 50px;
+}
+
+
+.task__checkbox {
+    box-sizing: border-box;
+    border: 3px solid #C8C7E4;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
+}
+
+.task__checkbox--done img {
+    position: absolute;
+    top: -15px;
+    left: -5px;
+}
+
+.task__checkbox--failed img {
+    position: absolute;
+    top: -7px;
+    left: -7px;
+}
+
+.task__checkbox--ongoing img {
+    margin: auto;
+}

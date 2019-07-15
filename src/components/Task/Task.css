@@ -1,0 +1,15 @@
+.task {
+    display: flex;
+    align-items: center;
+    color: #C8C7E4;
+    font-size: 2em;
+    text-align: left;
+    height: 50px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.task p {
+    margin-left: 20px;
+}
+
