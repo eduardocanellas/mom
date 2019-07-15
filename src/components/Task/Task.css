@@ -2,14 +2,20 @@
     display: flex;
     align-items: center;
     color: #C8C7E4;
-    font-size: 2em;
+    font-size: 1.75em;
     text-align: left;
     height: 50px;
-    margin: 20px auto;
-    width: 50%;
+    margin: 10px 0;
 }
 
 .task p {
     margin-left: 20px;
+    font-family: 'Source Code Pro', monospace;
 }
 
+.task--old {
+    filter: opacity(60%);
+    margin: 10px;
+    height: auto;
+    font-size: 1em;
+}

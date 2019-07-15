@@ -1,11 +1,13 @@
 import React from 'react';
-import Task from './components/Task/Task';
+import TaskContainer from './containers/Task/TaskContainer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Task content="asdadasds"></Task>
+      <div style={{ width: "25vw" }}></div>
+      <div className="vertical_division"></div>
+      <TaskContainer></TaskContainer>
     </div>
   );
 }

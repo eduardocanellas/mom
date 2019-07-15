@@ -6,7 +6,7 @@ import imgOngoing from './checkbox--ongoing.svg';
 
 export default function checkbox(props) {
 
-    let checkboxClass = "task__checkbox";
+    let checkboxClass = props.old ? "task__old_checkbox" : "task__checkbox";
     let image = "", message = "";
 
     switch (props.status) {
@@ -21,7 +21,7 @@ export default function checkbox(props) {
             message = "falhou";
             break;
         case "ongoing":
-            checkboxClass = "task__checkbox--ongoing";
+            checkboxClass += " task__checkbox--ongoing";
             image = imgOngoing;
             message = "contínuo";
             break;
